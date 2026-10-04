@@ -14,7 +14,8 @@ Open `index.html`, scroll to the `BOTS` list near the bottom:
 ```js
 { name: 'MailDesk', emoji: '📬', desc: '…', url: 'https://ce30bbdyvw.apps.bot-hosting.cloud', colors: ['#f6a623', '#ff6b8b'] },
 ```
-Copy a line, change the name/emoji/url/colours. `url` has no trailing slash. Commit — Pages updates by itself.
+Copy a line, change the name/emoji/url/colours. The `SERVICES` list right below it is for other people's tools
+(plain links, no status check) — same format. `url` has no trailing slash. Commit — Pages updates by itself.
 
 ## Live stats
 The page reads each bot's `/health`. Bots built after Oct 2026 send the CORS header that allows this and
